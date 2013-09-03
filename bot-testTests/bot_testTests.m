@@ -28,6 +28,9 @@
 
 - (void)testExample
 {
+    if (1 == 2) {
+        XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    }
 }
 
 @end
